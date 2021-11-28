@@ -1,0 +1,36 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(243, 107, 243);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.custom-box {
+    width: 100;
+    min-height: 100vh;
+    background-color:#fff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: rgba(136, 69, 136, 0.904) 0px 0px 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.custom-cart {
+    background-color: violet;
+    border-radius: 40px;
+    box-shadow: rgba(136, 69, 136, 0.904) 0px 0px 10px;
+}
+
+.custom-cart:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(136, 69, 136, 0.904) 0px 0px 10px;
+}
